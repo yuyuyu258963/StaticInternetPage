@@ -1,6 +1,6 @@
 import { Carousel, Col, Divider, Row } from 'antd'
 import React from 'react'
-import { CarouselImgs, classification1Data, classification1Data2, factoryData, flowerData, InfoImg, InfoImg2, InfoImg3 } from '../../constants';
+import { CarouselImgs, classification1Data, classification1Data2, diffKindClothes, diffKindClothesLong, factoryData, flowerData, InfoImg, InfoImg2, InfoImg3, kindData } from '../../constants';
 
 import "./style.scss"
 
@@ -94,6 +94,10 @@ export default function Content() {
       }
       <Divider />
       {
+        classifiedSectionKins()
+      }
+      <Divider />
+      {
         classifiedSection2()
       }
       <Divider />
@@ -101,7 +105,9 @@ export default function Content() {
         classifiedSection3()
       }
       <Divider />
-      
+      {
+
+      }
       
     </div>
   )
@@ -215,4 +221,43 @@ const classifiedSection3 = () => {
   )
 }
 
+const classifiedSectionKins = () => {
+  return (
+    <section className="sec" >
+      <header >
+        <a href="" >
+          工艺推荐
+          <span className="span-split-special" >
+            &gt;
+          </span>
+        </a>
+        <div style={{flex: 1}}></div>
+        <div style={{float: 'right',display:"inline-block"}} className="header-right-g" >
+          {
+            kindData.map((item:string) => 
+              <a href={item} key={item} >
+                {item}
+              </a>
+            )
+          }
 
+        </div>
+        
+      </header>
+      <div id="bottom-content" >
+        {
+          diffKindClothes.map((item,index) => {
+            return (
+              <div className="bottom-content-item class-kind" key={index} >
+                <img src={item.url} ></img>
+                <p style={{textAlign: 'left',fontWeight: 'bold'}} >
+                  {item.kind}
+                </p>
+              </div>
+            )
+          })
+        }
+      </div>
+    </section>
+  )
+}

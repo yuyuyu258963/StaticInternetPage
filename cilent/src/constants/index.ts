@@ -129,6 +129,14 @@ export const flowerData = [
   "更多",
 ]
 
+// 不同工艺的选择
+export const kindData = [
+  "网布",
+  "烫金",
+  "后工艺",
+  "更多",
+]
+
 export const factoryData = [
   {
     name:"1",
@@ -142,3 +150,38 @@ export const factoryData = [
     comment:"每周发布两个主题，每个主题包含150个优秀花型，由瓦栏花型编辑倾情推荐，选图更省力，购图更省心。",
   },
 ]
+
+// 不同的布种
+export const diffKindClothes = [
+  {
+    url: "/IMGs/kind_1.jpg",
+    name:"1",
+    kind:"网布"
+  },{
+    url: "/IMGs/kind_2.jpg",
+    name:"1",
+    kind:"网布"
+  },{
+    url: "/IMGs/kind_3.jpg",
+    name:"1",
+    kind:"网布"
+  },{
+    url: "/IMGs/kind_4.jpg",
+    name:"1",
+    kind:"烫金"
+  }
+]
+
+// 不同的布种
+export const diffKindClothesLong = [
+  {
+    url: "/IMGs/kind_6.jpg",
+    name:"1",
+    kind:"网布"
+  },{
+    url: "/IMGs/kind_7.jpg",
+    name:"1",
+    kind:"网布"
+  }
+]
+
