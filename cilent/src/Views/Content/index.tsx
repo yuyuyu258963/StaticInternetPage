@@ -1,6 +1,6 @@
 import { Carousel, Col, Divider, Row } from 'antd'
 import React from 'react'
-import { CarouselImgs, classification1Data, InfoImg, InfoImg2, InfoImg3 } from '../../constants';
+import { CarouselImgs, classification1Data, classification1Data2, flowerData, InfoImg, InfoImg2, InfoImg3 } from '../../constants';
 
 import "./style.scss"
 
@@ -93,31 +93,36 @@ export default function Content() {
         classifiedSection()
       }
       <Divider />
+      {
+        classifiedSection2()
+      }
     </div>
   )
 }
 
+// 下面的第二个分区的
 const classifiedSection = () => {
-
   return (
     <section className="sec" >
       <header >
-        <a href="da" >Public</a>
+        <a href="da" >公共区</a>
         <span className="span-split" ></span>
         <a href="" >VIP</a>
         <span className="span-split" ></span>
         <a href="" >精选区</a>
         <span className="span-split" ></span>
-        <a href="" >所有类型</a>
-        <span className="span-split-special" >
-          &gt;
-        </span>
+        <a href="" >
+          所有类型
+          <span className="span-split-special" >
+            &gt;
+          </span>
+        </a>
       </header>
       <div id="bottom-content">
         {
-          classification1Data.map(item => {
+          classification1Data.map((item,index) => {
             return (
-              <div className="bottom-content-item" >
+              <div className="bottom-content-item class-1" key={index} >
                 <img src={item.url} ></img>
                 <a href={item.url} >{`@ ${item.author}`}</a>
               </div>
@@ -127,5 +132,44 @@ const classifiedSection = () => {
       </div>
     </section>
   )
-  
 }
+
+// 下面第三个分区的
+const classifiedSection2 = () => {
+  return (
+    <section className="sec" >
+      <header >
+        <a href="" >
+          花纹推荐区
+          <span className="span-split-special" >
+            &gt;
+          </span>
+        </a>
+        <div style={{flex: 1}}></div>
+        <div style={{float: 'right',display:"inline-block"}} className="header-right-g" >
+          {
+            flowerData.map(item => 
+              <a href={item} key={item} >
+                {item}
+              </a>
+            )
+          }
+
+        </div>
+        
+      </header>
+      <div id="bottom-content">
+        {
+          classification1Data2().map((item,index) => {
+            return (
+              <div className="bottom-content-item class-2" key={index} >
+                <img src={item.url} ></img>
+              </div>
+            )
+          })
+        }
+      </div>
+    </section>
+  )
+}
+

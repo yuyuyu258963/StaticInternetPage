@@ -107,3 +107,25 @@ export const classification1Data = [
     author: "艺sha",
   },
 ]
+
+// 下面第二个分区的
+export const classification1Data2 = () => {
+  const name = ["1","2","3","4","5"]
+  return name.map((item,index) => {
+    return {
+      name: item,
+      url: `/IMGs/flower_${index + 1}.jpg`,
+    }
+  })
+}
+
+
+// 不同纹理的选择
+export const flowerData = [
+  "手工",
+  "花卉",
+  "小碎花",
+  "纯色",
+  "更多",
+]
+
