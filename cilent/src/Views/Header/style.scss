@@ -26,8 +26,13 @@ $aHoverColor:rgb(101, 215, 231);
 }
 
 .head-mid{
+  font-size: 0.5em;;
+  margin-top: 10px;
+  margin-left: 10px;
+  
   li{
     display: inline-block;
+    padding: 8px;
     
     a{
       color: black;
@@ -39,5 +44,48 @@ $aHoverColor:rgb(101, 215, 231);
       color: $aHoverColor;
       border-bottom: 1px solid $aHoverColor;
     }
+    a:active{
+      color: $aHoverColor;
+    }
+
   }
+  li:last-child{
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    top: -3px;
+  }
+}
+
+#head-right-ul{
+  display: block;
+  position: relative;
+  height: 100%;
+  // transform: translateX(380%);
+
+  li{
+    display: inline-block;
+  }
+  li:hover{
+    background-color: #ccc;
+  }
+  a{
+    display: inline-block;
+    border: 0.5px solid #ccc;
+    height: inherit;
+    width: 76px;
+    line-height: 68px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  img{
+    height: 30px;
+    width: 30px;
+    margin-top: -3px;
+  }
+}
+
+#m-span{
+  display: flex;
+  flex: 1;
 }
