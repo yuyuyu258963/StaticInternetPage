@@ -1,0 +1,43 @@
+$fontColor:black;
+$aHoverColor:rgb(101, 215, 231);
+
+.App-header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $fontColor;
+}
+
+.App-header>div{
+  // flex: 1;
+  height: 100%;
+  text-align: center;
+}
+.head-left{
+  img{
+    height: 100%;
+    width: 127px;
+    cursor: pointer;
+  }
+}
+
+.head-mid{
+  li{
+    display: inline-block;
+    
+    a{
+      color: black;
+      height: 40px;
+      line-height: 40px;
+      transition: color 0.2s ease-in;
+    }
+    a:hover{
+      color: $aHoverColor;
+      border-bottom: 1px solid $aHoverColor;
+    }
+  }
+}
