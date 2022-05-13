@@ -36,19 +36,54 @@ export const CarouselImgs = [
   "https://wldataoss.walanwalan.com/ofs/banners/2022-05/wq2-5%E6%9C%88%E7%AC%AC2%E6%9C%9F%20%E7%94%B7%E6%BB%A1.jpg",
 ]
 
-// 轮播图右侧的四个图标
+// 轮播图右侧的四个图标 第一排的
 export const InfoImg = [
   {
     url:"https://www.walanwalan.com/static/images/home/nvzhx_v2.png",
-    name:"213",
+    name:"女装花型",
   },{
     url: "https://www.walanwalan.com/static/images/home/nzhx_v2.png",
-    name:"2312"
+    name:"男装花型"
   },{
     url:"https://www.walanwalan.com/static/images/home/yzhx_v2.png",
-    name:"das",
+    name:"泳装花型",
   },{
     url:"https://www.walanwalan.com/static/images/home/gdhx_v2.png",
-    name:"sada",
+    name:"更多花型",
+  }
+]
+
+// 轮播图右侧的四个图标 第二排的
+export const InfoImg2 = [
+  {
+    url:"	https://www.walanwalan.com/static/images/home/hxdz.png",
+    name:"花型定制",
+  },{
+    url: "	https://www.walanwalan.com/static/images/home/bqdj.png",
+    name:"版权服务"
+  },{
+    url:"https://www.walanwalan.com/static/images/home/zxdy.png",
+    name:"在线打印",
+  },{
+    url:"	https://www.walanwalan.com/static/images/home/kgzs.png",
+    name:"开工作室",
+  }
+]
+
+
+// 轮播图右侧的四个图标 第三排的
+export const InfoImg3 = [
+  {
+    url:"https://www.walanwalan.com/static/images/home/ktvip.png",
+    name:"开通VIP",
+  },{
+    url: "https://www.walanwalan.com/static/images/home/hyqx.png",
+    name:"会员权限"
+  },{
+    url:"https://www.walanwalan.com/static/images/home/zxkf.png",
+    name:"在线客服",
+  },{
+    url:"https://www.walanwalan.com/static/images/home/bzzx_v2.png",
+    name:"帮助中心",
   }
 ]

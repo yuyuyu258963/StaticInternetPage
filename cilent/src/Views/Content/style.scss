@@ -4,8 +4,8 @@ $black:#292b37;
 .div-content{
   border: 1px solid #ccc;
   padding-top: 15px;
-  padding-left: 17%;
-  padding-right: 17%;
+  padding-left: 18%;
+  padding-right: 18%;
   height: 1500px;
   display: flex;
   flex-direction: column;
@@ -50,16 +50,20 @@ $black:#292b37;
   // display: flex;
   // flex-direction: column;
 }
+
+.row-top{
+  background-color: $black;
+
+}
 .row{
   display: inline-block;
-  background-color: $black;
   width: 100%;
   height: 35%;
   color: white;
 
   img{
-    width: 36px;
-    height: 36px;
+    width: 37px;
+    height: 37px;
     display: block;
     margin: 0 auto;
   }
@@ -78,6 +82,13 @@ $black:#292b37;
 .row-info-bottom{
   background-color: #e1e1e1;
   height: 65%;
+}
+.row-info-bottom > .row{
+  color: black;
+}
+
+.ant-divider-horizontal {
+  margin: 24px 0px 5px 0;
 }
 
 

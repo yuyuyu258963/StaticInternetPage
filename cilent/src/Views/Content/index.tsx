@@ -1,6 +1,6 @@
 import { Carousel, Col, Divider, Row } from 'antd'
 import React from 'react'
-import { CarouselImgs, InfoImg } from '../../constants';
+import { CarouselImgs, InfoImg, InfoImg2, InfoImg3 } from '../../constants';
 
 import "./style.scss"
 
@@ -32,7 +32,7 @@ export default function Content() {
         </div>
         {/* 轮播图右侧的图标 */}
         <div className="sec-1-info" >
-          <div className="row">
+          <div className="row row-top">
               {
                 InfoImg.map(item => {
                   return (
@@ -49,9 +49,42 @@ export default function Content() {
                 })
               }
           </div>
-          {/* <Divider /> */}
           <div className="row-info-bottom" >
-            
+            <div className="row row-mid">
+                {
+                  InfoImg2.map(item => {
+                    return (
+                      <div>
+                        <img src={item.url} >
+                        </img>
+                        <span >
+                          {
+                            item.name
+                          }
+                        </span>
+                      </div>
+                    )
+                  })
+                }
+            </div>
+            <Divider />
+            <div className="row row-mid">
+                {
+                  InfoImg3.map(item => {
+                    return (
+                      <div>
+                        <img src={item.url} >
+                        </img>
+                        <span >
+                          {
+                            item.name
+                          }
+                        </span>
+                      </div>
+                    )
+                  })
+                }
+            </div>
           </div>
           
         </div>
