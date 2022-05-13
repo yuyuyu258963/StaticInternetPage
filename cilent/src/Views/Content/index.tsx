@@ -1,6 +1,6 @@
 import { Carousel, Col, Divider, Row } from 'antd'
 import React from 'react'
-import { CarouselImgs, InfoImg, InfoImg2, InfoImg3 } from '../../constants';
+import { CarouselImgs, classification1Data, InfoImg, InfoImg2, InfoImg3 } from '../../constants';
 
 import "./style.scss"
 
@@ -89,7 +89,43 @@ export default function Content() {
           
         </div>
       </section>
-      
+      {
+        classifiedSection()
+      }
+      <Divider />
     </div>
   )
+}
+
+const classifiedSection = () => {
+
+  return (
+    <section className="sec" >
+      <header >
+        <a href="da" >Public</a>
+        <span className="span-split" ></span>
+        <a href="" >VIP</a>
+        <span className="span-split" ></span>
+        <a href="" >精选区</a>
+        <span className="span-split" ></span>
+        <a href="" >所有类型</a>
+        <span className="span-split-special" >
+          &gt;
+        </span>
+      </header>
+      <div id="bottom-content">
+        {
+          classification1Data.map(item => {
+            return (
+              <div className="bottom-content-item" >
+                <img src={item.url} ></img>
+                <a href={item.url} >{`@ ${item.author}`}</a>
+              </div>
+            )
+          })
+        }
+      </div>
+    </section>
+  )
+  
 }

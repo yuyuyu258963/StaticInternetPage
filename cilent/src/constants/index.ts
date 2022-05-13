@@ -40,16 +40,16 @@ export const CarouselImgs = [
 export const InfoImg = [
   {
     url:"https://www.walanwalan.com/static/images/home/nvzhx_v2.png",
-    name:"女装花型",
+    name:"网布",
   },{
     url: "https://www.walanwalan.com/static/images/home/nzhx_v2.png",
-    name:"男装花型"
+    name:"烫金"
   },{
     url:"https://www.walanwalan.com/static/images/home/yzhx_v2.png",
-    name:"泳装花型",
+    name:"亮丝",
   },{
     url:"https://www.walanwalan.com/static/images/home/gdhx_v2.png",
-    name:"更多花型",
+    name:"更多工艺",
   }
 ]
 
@@ -85,4 +85,25 @@ export const InfoImg3 = [
     url:"https://www.walanwalan.com/static/images/home/bzzx_v2.png",
     name:"帮助中心",
   }
+]
+
+// 下面主题内容的第二部分
+export const classification1Data = [
+  {
+    url: "/IMGs/content_2_1.jpg",
+    name: "das",
+    author: "梁康",
+  },{
+    name:"das",
+    url:"/IMGs/content_2_2.jpg",
+    author: "花火",
+  },{
+    name:"das",
+    url:"/IMGs/content_2_3.jpg",
+    author: "思域",
+  },{
+    name:"das",
+    url:"/IMGs/content_2_4.jpg",
+    author: "艺sha",
+  },
 ]

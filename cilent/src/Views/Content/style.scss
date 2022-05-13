@@ -48,8 +48,6 @@ $black:#292b37;
   margin-left: 10px;
   height: inherit;
   flex: 1;
-  // display: flex;
-  // flex-direction: column;
 }
 
 .row-top{
@@ -92,6 +90,67 @@ $black:#292b37;
   margin: 24px 0px 5px 0;
 }
 
+.sec{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  header{
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    .span-split{
+      margin: 0 10px;
+      width: 2px;
+      height: 100%;
+      background-color: $black;
+    }
+    a{
+      color: gray;
+    }
+    a:hover{
+      color: orange;
+    }
+    .span-split-special{
+      font-weight: bold;
+    }
+  }
+  >div{
+    flex: 1;
+    flex-direction: column;
+  }
+}
+
+#bottom-content{
+  margin-top: 10px;
+  flex-direction: column;
+  flex: 1;
+  img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+  a{
+    width: 100%;
+    display: block;
+    text-align: start;
+  }
+}
+.bottom-content-item{
+  width: 25%;
+  height: 90%;
+  display: inline-block;
+  padding: 0 10px;
+  a{
+    color: black;
+    font-weight: 250
+  }
+}
+.bottom-content-item:nth-child(1){
+  padding-left:0;
+}
+.bottom-content-item:nth-last-child(1){
+  padding-right:0;
+}
 
 @keyframes switch{
   0%{};
