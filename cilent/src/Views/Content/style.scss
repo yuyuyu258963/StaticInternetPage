@@ -23,6 +23,7 @@ $black:#292b37;
   ul{
     margin: 0;
     padding: 0;
+
   }
   li,img{
     width: 100%;
@@ -102,5 +103,5 @@ $black:#292b37;
   60%{transform:translateY(-200%);}
   80%{transform:translateY(-100%);}
   90%{transform:translateY(-100%);}
-  100%{transform:translateY(0%);}
+  // 100%{transform:translateY(0%);}
   }
