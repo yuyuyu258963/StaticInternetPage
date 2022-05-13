@@ -27,7 +27,7 @@ export default function Header() {
       </div>
       <div id="m-span">
         <div style={{width:"73%"}}></div>
-        <Search placeholder="input search text" style={{ width: 200, float: 'right',marginTop:"18px"}} />
+        <Search placeholder="" style={{ width: 200, float: 'right',marginTop:"18px"}} />
       </div>
       <div className="head-right">
         <ul id="head-right-ul">

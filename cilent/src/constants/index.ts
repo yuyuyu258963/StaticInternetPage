@@ -29,3 +29,8 @@ export const selectMenu:{
   },
 ]
 
+export const CarouselImgs = [
+  "https://wldataoss.walanwalan.com/ofs/banners/2022-05/70u-%E6%BD%AE%E7%89%8C%E6%A0%87%E8%AF%AD1.jpg",
+  "https://wldataoss.walanwalan.com/ofs/banners/2022-05/wq2-5%E6%9C%88%E7%AC%AC2%E6%9C%9F%20%E7%94%B7%E6%BB%A1.jpg",
+  "https://wldataoss.walanwalan.com/ofs/banners/2022-05/gmj-5月第2期 抽象.jpg",
+]
