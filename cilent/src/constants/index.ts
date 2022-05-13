@@ -129,3 +129,16 @@ export const flowerData = [
   "更多",
 ]
 
+export const factoryData = [
+  {
+    name:"1",
+    url:"/IMGs/factory_1.jpg",
+    title: "2022秋冬男装趋势",
+    comment:"标语和品牌名作为文字图案十分流行，也为个性化标语设计提供了更多空间。粗字体和标志依然是流行的设计元素，短标语和品牌名称打造洋溢着年轻气息的醒目印花。 趋势...",
+  },{
+    name:"1",
+    url:"/IMGs/factory_2.jpg",
+    title:"男装满版花型 MENSWEAR REPEAT",
+    comment:"每周发布两个主题，每个主题包含150个优秀花型，由瓦栏花型编辑倾情推荐，选图更省力，购图更省心。",
+  },
+]

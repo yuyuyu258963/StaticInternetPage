@@ -4,9 +4,9 @@ $black:#292b37;
 .div-content{
   border: 1px solid #ccc;
   padding-top: 15px;
-  padding-left: 18%;
-  padding-right: 18%;
-  height: 1500px;
+  padding-left: 18.5%;
+  padding-right: 18.5%;
+  height: 1550px;
   display: flex;
   flex-direction: column;
 }
@@ -157,6 +157,12 @@ $black:#292b37;
 }
 .class-2{
   width: 20%;
+}
+.class-3{
+  width: 50%;
+  p{
+    margin-bottom: 5px;
+  }
 }
 .bottom-content-item{
   height: 90%;

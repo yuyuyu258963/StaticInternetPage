@@ -1,6 +1,6 @@
 import { Carousel, Col, Divider, Row } from 'antd'
 import React from 'react'
-import { CarouselImgs, classification1Data, classification1Data2, flowerData, InfoImg, InfoImg2, InfoImg3 } from '../../constants';
+import { CarouselImgs, classification1Data, classification1Data2, factoryData, flowerData, InfoImg, InfoImg2, InfoImg3 } from '../../constants';
 
 import "./style.scss"
 
@@ -96,6 +96,13 @@ export default function Content() {
       {
         classifiedSection2()
       }
+      <Divider />
+      {
+        classifiedSection3()
+      }
+      <Divider />
+      
+      
     </div>
   )
 }
@@ -172,4 +179,40 @@ const classifiedSection2 = () => {
     </section>
   )
 }
+
+// 厂家推荐 第四个分区
+const classifiedSection3 = () => {
+  return (
+    <section className="sec" >
+      <header >
+        <a href="" >
+          厂家推荐
+          <span className="span-split-special" >
+            &gt;
+          </span>
+        </a>
+        <div style={{flex: 1}}></div>
+        
+      </header>
+      <div id="bottom-content">
+        {
+          factoryData.map((item,index) => {
+            return (
+              <div className="bottom-content-item class-3" key={index} >
+                <img src={item.url} ></img>
+                <p style={{fontSize:"18px",fontWeight:"bold",textAlign:"left"}} >
+                  {item.title}
+                </p>
+                <p style={{textAlign:"left"}} >
+                  {item.comment}
+                </p>
+              </div>
+            )
+          })
+        }
+      </div>
+    </section>
+  )
+}
+
 

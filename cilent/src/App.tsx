@@ -2,6 +2,7 @@
 import 'antd/dist/antd.css';
 import './App.css';
 import Content from './Views/Content';
+import Footer from './Views/Footer';
 import Header from './Views/Header';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Content />
+      <Footer />
     </div>
   );
 }
