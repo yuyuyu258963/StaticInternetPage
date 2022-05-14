@@ -1,6 +1,6 @@
 import { Carousel, Col, Divider, Row } from 'antd'
 import React from 'react'
-import { CarouselImgs, classification1Data, classification1Data2, diffKindClothes, diffKindClothesLong, factoryData, flowerData, InfoImg, InfoImg2, InfoImg3, kindData } from '../../constants';
+import { CarouselImgs, classification1Data, classification1Data2, diffKindClothes, diffKindClothesDateNew, factoryData, flowerData, InfoImg, InfoImg2, InfoImg3, kindData, timeData } from '../../constants';
 
 import "./style.scss"
 
@@ -23,7 +23,7 @@ export default function Content() {
               CarouselImgs.map(item => {
                 return (
                   <li key={item} >
-                    <img src={item} ></img>
+                    <img src={item} id="car-img" ></img>
                   </li>
                 )
               })
@@ -95,6 +95,10 @@ export default function Content() {
       <Divider />
       {
         classifiedSectionKins()
+      }
+      <Divider />
+      {
+        classifiedSectionDate()
       }
       <Divider />
       {
@@ -186,6 +190,7 @@ const classifiedSection2 = () => {
   )
 }
 
+
 // 厂家推荐 第四个分区
 const classifiedSection3 = () => {
   return (
@@ -221,6 +226,7 @@ const classifiedSection3 = () => {
   )
 }
 
+// 工艺推荐区
 const classifiedSectionKins = () => {
   return (
     <section className="sec" >
@@ -230,6 +236,8 @@ const classifiedSectionKins = () => {
           <span className="span-split-special" >
             &gt;
           </span>
+          &nbsp;
+          5月
         </a>
         <div style={{flex: 1}}></div>
         <div style={{float: 'right',display:"inline-block"}} className="header-right-g" >
@@ -252,6 +260,48 @@ const classifiedSectionKins = () => {
                 <img src={item.url} ></img>
                 <p style={{textAlign: 'left',fontWeight: 'bold'}} >
                   {item.kind}
+                </p>
+              </div>
+            )
+          })
+        }
+      </div>
+    </section>
+  )
+}
+
+
+// 新品推荐区
+const classifiedSectionDate = () => {
+  return (
+    <section className="sec" >
+      <header >
+        <a href="" >
+          新品抢先看
+          <span className="span-split-special" >
+            &gt;
+          </span>
+        </a>
+        <div style={{flex: 1}}></div>
+        <div style={{float: 'right',display:"inline-block"}} className="header-right-g" >
+          {
+            timeData.map((item:string) => 
+              <a href={item} key={item} >
+                {item}
+              </a>
+            )
+          }
+        </div>
+        
+      </header>
+      <div id="bottom-content" >
+        {
+          diffKindClothesDateNew.map((item,index) => {
+            return (
+              <div className="bottom-content-item class-kind" key={index} >
+                <img src={item.url} ></img>
+                <p style={{textAlign: 'left',fontWeight: 'bold'}} >
+                  {/* {item.kind} */}
                 </p>
               </div>
             )

@@ -31,8 +31,8 @@ export const selectMenu:{
 
 // 轮播图的三个图片
 export const CarouselImgs = [
-  "/IMGs/70u-潮牌标语1.jpg",
-  "/IMGs/gmj-5月第2期 抽象.jpg",
+  "/IMGs/cur_1.jpg",
+  "/IMGs/cur_2.jpg",
   "/IMGs/wq2-5月第2期 男满.jpg",
 ]
 
@@ -137,16 +137,24 @@ export const kindData = [
   "更多",
 ]
 
+export const timeData = [
+  "2月",
+  "3月",
+  "4月",
+  "更多",
+]
+
 export const factoryData = [
   {
     name:"1",
-    url:"/IMGs/factory_1.jpg",
-    title: "2022秋冬男装趋势",
+    url:"/IMGs/shop_1.jpg",
+    title: "亿卡",
+    // comment:"历史悠久、质量保证...",
     comment:"标语和品牌名作为文字图案十分流行，也为个性化标语设计提供了更多空间。粗字体和标志依然是流行的设计元素，短标语和品牌名称打造洋溢着年轻气息的醒目印花。 趋势...",
   },{
     name:"1",
-    url:"/IMGs/factory_2.jpg",
-    title:"男装满版花型 MENSWEAR REPEAT",
+    url:"/IMGs/shop_2.jpg",
+    title:"巴黎坊",
     comment:"每周发布两个主题，每个主题包含150个优秀花型，由瓦栏花型编辑倾情推荐，选图更省力，购图更省心。",
   },
 ]
@@ -173,15 +181,23 @@ export const diffKindClothes = [
 ]
 
 // 不同的布种
-export const diffKindClothesLong = [
+export const diffKindClothesDateNew = [
   {
-    url: "/IMGs/kind_6.jpg",
+    url: "/IMGs/new_1.jpg",
     name:"1",
     kind:"网布"
   },{
-    url: "/IMGs/kind_7.jpg",
+    url: "/IMGs/new_2.jpg",
     name:"1",
     kind:"网布"
-  }
+  },{
+    url: "/IMGs/new_3.jpg",
+    name:"1",
+    kind:"网布"
+  },{
+    url: "/IMGs/new_4.jpg",
+    name:"1",
+    kind:"网布"
+  },
 ]
 

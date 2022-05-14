@@ -6,7 +6,7 @@ $black:#292b37;
   padding-top: 15px;
   padding-left: 18.5%;
   padding-right: 18.5%;
-  height: 1700px;
+  height: 2700px;
   display: flex;
   flex-direction: column;
 }
@@ -30,6 +30,10 @@ $black:#292b37;
     height: 100%;
     float: left;
     cursor: pointer;
+  }
+  img{
+    width: 728px;
+    height: 398px;
   }
   li{
     display: inline-block;
