@@ -237,7 +237,6 @@ const classifiedSectionKins = () => {
             &gt;
           </span>
           &nbsp;
-          5月
         </a>
         <div style={{flex: 1}}></div>
         <div style={{float: 'right',display:"inline-block"}} className="header-right-g" >
@@ -281,6 +280,7 @@ const classifiedSectionDate = () => {
           <span className="span-split-special" >
             &gt;
           </span>
+          5月
         </a>
         <div style={{flex: 1}}></div>
         <div style={{float: 'right',display:"inline-block"}} className="header-right-g" >
