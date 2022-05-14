@@ -100,12 +100,12 @@ export const classification1Data = [
     author: "梁康",
   },{
     name:"das",
-    url:"/IMGs/ex_2.jpg",
+    url:"/IMGs/ex_7.jpg",
     // url:"/IMGs/content_2_2.jpg",
     author: "花火",
   },{
     name:"das",
-    url:"/IMGs/ex_3.jpg",
+    url:"/IMGs/ex_8.jpg",
     // url:"/IMGs/content_2_3.jpg",
     author: "思域",
   },{
@@ -157,13 +157,13 @@ export const factoryData = [
     name:"1",
     url:"/IMGs/shop_1.jpg",
     title: "亿卡",
-    comment:"绍兴亿卡纺织品有限公司，成立于2012年，主营针织面料，后工艺印花，提花针织布等。",
+    comment:"绍兴亿卡纺织品有限公司，成立于2012年，主营轻纺，后工艺印花，提花针织布等女装裤料，业务范围涵盖服装贸易、国内零售，海内外展览等。",
     // comment:"标语和品牌名作为文字图案十分流行，也为个性化标语设计提供了更多空间。粗字体和标志依然是流行的设计元素，短标语和品牌名称打造洋溢着年轻气息的醒目印花。 趋势...",
   },{
     name:"1",
     url:"/IMGs/shop_2.jpg",
     title:"巴黎坊",
-    comment:"巴黎坊，时尚女装面料商，成立于2008年，主营新梭织风格料，后工艺烫染，亮丝网纱等面料。",
+    comment:"巴黎坊，时尚女装面料商，成立于2008年，主营梭织、针织、烫金及后工艺风格面料；自产自销，自主进出口， 工贸一体，可免费打样分析；欢迎各外贸公司、服装品牌、电商、批发商们来样定做。",
     // comment:"每周发布两个主题，每个主题包含150个优秀花型，由瓦栏花型编辑倾情推荐，选图更省力，购图更省心。",
   },
 ]
