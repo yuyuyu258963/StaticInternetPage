@@ -146,6 +146,7 @@ export const kindData = [
   "更多",
 ]
 
+// 不同的月份
 export const timeData = [
   "2月",
   "3月",
@@ -153,6 +154,7 @@ export const timeData = [
   "更多",
 ]
 
+// 厂家推荐
 export const factoryData = [
   {
     name:"1",
