@@ -191,12 +191,13 @@ $black:#292b37;
 @keyframes switch{
   0%{};
   10%{};
-  20%{};
+  20%{transform:translateY(-100%);}
   30%{transform:translateY(-100%);}
-  40%{transform:translateY(-100%);}
+  40%{transform:translateY(-200%);}
   50%{transform:translateY(-200%);}
-  60%{transform:translateY(-200%);}
-  80%{transform:translateY(-100%);}
-  90%{transform:translateY(-100%);}
-  // 100%{transform:translateY(0%);}
+  60%{transform:translateY(-300%);}
+  70%{transform:translateY(-300%);}
+  80%{transform:translateY(-200%);}
+  90%{transform:translateY(-200%);}
+  100%{transform:translateY(-100%);}
   }

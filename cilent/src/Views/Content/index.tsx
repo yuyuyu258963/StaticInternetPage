@@ -214,7 +214,7 @@ const classifiedSection3 = () => {
                 <p style={{fontSize:"18px",fontWeight:"bold",textAlign:"left"}} >
                   {item.title}
                 </p>
-                <p style={{textAlign:"left"}} >
+                <p style={{textAlign:"left",fontSize:"12px"}} >
                   {item.comment}
                 </p>
               </div>
