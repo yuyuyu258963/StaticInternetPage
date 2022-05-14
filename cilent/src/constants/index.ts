@@ -52,7 +52,7 @@ export const InfoImg = [
     // url:"https://www.walanwalan.com/static/images/home/yzhx_v2.png",
     name:"亮丝",
   },{
-    url:"/IMGs/更多工艺.png",
+    url:"/IMGs/更多.png",
     // url:"https://www.walanwalan.com/static/images/home/gdhx_v2.png",
     name:"更多工艺",
   }
