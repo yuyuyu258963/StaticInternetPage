@@ -4,7 +4,7 @@ import { aHead, selectMenu } from '../../constants'
 import { LOGO } from '../../Images'
 
 import "./style.scss"
-
+ 
 const { Search } = Input;
 
 export default function Header() {
@@ -26,8 +26,8 @@ export default function Header() {
         </ul>
       </div>
       <div id="m-span">
-        <div style={{width:"73%"}}></div>
-        <Search placeholder="" style={{ width: 200, float: 'right',marginTop:"18px"}} />
+        <div style={{width:"13%"}}></div>
+        <Search placeholder="" style={{ width: 800, float: 'right',marginTop:"14px", borderRadius:'5px'}} size='large' />
       </div>
       <div className="head-right">
         <ul id="head-right-ul">

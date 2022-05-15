@@ -2,8 +2,8 @@ $fontColor:black;
 $aHoverColor:rgb(101, 215, 231);
 
 .App-header {
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
+  background-color: #54B8FF;
+  // border-bottom: 1px solid #ccc;
   height: 70px;
   display: flex;
   // position: fixed;
@@ -28,12 +28,13 @@ $aHoverColor:rgb(101, 215, 231);
 .head-mid{
   font-size: 0.5em;;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
   
   li{
     display: inline-block;
     padding: 8px;
-    
+    font-weight: 800;
+    font-size: 20px;
     a{
       color: black;
       height: 40px;
@@ -50,8 +51,8 @@ $aHoverColor:rgb(101, 215, 231);
 
   }
   li:last-child{
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 20px;
     position: relative;
     top: -3px;
   }
@@ -67,14 +68,18 @@ $aHoverColor:rgb(101, 215, 231);
     display: inline-block;
   }
   li:hover{
-    background-color: #ccc;
+    // background-color: #ccc;
+    background-color:aliceblue;
+    
   }
   a{
     display: inline-block;
-    border: 0.5px solid #ccc;
+    // border: 0.5px solid #ccc;
+    // border: 0.5px solid aliceblue;
     height: inherit;
     width: 76px;
-    line-height: 68px;
+    // line-height: 68px;
+    line-height: 70px;
     text-align: center;
     vertical-align: middle;
   }
